@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.a15599.xiaoyuangou.MainActivity_Seller">
+<ImageView
+    android:background="@drawable/ddd"
+    android:layout_width="match_parent"
+    android:layout_weight="9"
+    android:layout_height="0sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:background="#ffffff"
+    android:layout_height="0dp">
+    <Button
+        android:id="@+id/add"
+        android:layout_width="200dp"
+        android:background="#eeeeff"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        android:text="添加商品" />
+    <Button
+    android:id="@+id/look"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="200dp" android:background="#eeffff"
+    android:layout_height="60dp"
+    android:text="浏览商品" />
+</LinearLayout>
+
+</LinearLayout>

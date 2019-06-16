@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+
+
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_width="95dip"
+            android:layout_height="120dip"
+            />
+        <!--210sp-->
+        <TextView
+            android:id="@+id/TestView"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+
+            />
+
+
+        <!--
+      <Button
+            android:id="@+id/update"
+            android:text="改"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:layout_width="50sp"
+            android:layout_height="44sp" />
+        <Button
+            android:id="@+id/delete"
+            android:text="删"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:layout_width="50sp"
+            android:layout_height="44sp" />
+      -->
+
+
+</LinearLayout>
